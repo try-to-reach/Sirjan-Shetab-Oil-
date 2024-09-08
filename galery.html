@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./galery.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>شرکت پالایش روغن موتور شتاب</title>
+</head>
+
+<body>
+    <header class="component-10" class="titleheader" >
+        <!-- منوی دسکتاپ -->
+        <nav class="component-10-child">
+            <ul id="menu-list">
+                <li class="div"><a href="#oil-guide">راهنمای انتخاب روغن</a></li>
+                <li class="div1"><a href="#products">محصولات ما</a></li>
+                <li class="div2"><a href="#licenses">تمام مجوزهای ما</a></li>
+                <li class="div3"><a href="#home">صفحه اصلی</a></li>
+            </ul>
+            <img class="alamat2-2-icon" alt="Company Logo" src="alamat2 2.png">
+            <a href="/contact" class="btn">ارتباط با ما</a>
+        </nav>
+
+        <!-- منوی موبایل -->
+        <div class="mobilemenu">
+            <img class="alamat2-2-icon" alt="Company Logo" src="alamat2 2.png">
+            <h1 class="name">شرکت پالایش روغن موتور شتاب</h1>
+            <div class="menu-icon" id="menu-icon" onclick="toggleMenu()">☰</div>
+        </div>
+
+        <nav class="mobilenav" id="mobilenav">
+            <ul id="mobilelist">
+                <li class="div"><a href="#oil-guide">راهنمای انتخاب روغن</a></li>
+                <li class="div1"><a href="#products">محصولات ما</a></li>
+                <li class="div2"><a href="#licenses">تمام مجوزهای ما</a></li>
+                <li class="div3"><a href="#home">صفحه اصلی</a></li>
+            </ul>
+            <div class="contact-btn-wrapper">
+                <a href="/contact" class="btn">ارتباط با ما</a>
+            </div>
+        </nav>
+        <div class="line-div"></div>
+    </header>
+    <section class="gallery">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <figure>
+                        <img src="./Component 12.png" alt="توضیح تصویر ۱">
+                        <figcaption class="coments">توضیح تصویر ۱</figcaption>
+                    </figure>
+                </div>
+                <div class="swiper-slide">
+                    <figure>
+                        <img src="./Component 12.png" alt="توضیح تصویر ۲">
+                        <figcaption class="coments">توضیح تصویر ۲</figcaption>
+                    </figure>
+                </div>
+                <div class="swiper-slide">
+                    <figure>
+                        <img src="./Component 12.png" alt="توضیح تصویر ۳">
+                        <figcaption class="coments">توضیح تصویر ۳</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <!-- Custom navigation and pagination -->
+            <div class="custom-controls">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function toggleMenu() {
+            var mobilenav = document.getElementById('mobilenav');
+            if (mobilenav.style.display === 'block') {
+                mobilenav.style.display = 'none';
+            } else {
+                mobilenav.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>

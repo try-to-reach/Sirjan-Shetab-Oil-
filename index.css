@@ -1,0 +1,543 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.component-10-child {
+    position: absolute;
+    height: 90.68%;
+    width: calc(100% - 88px);
+    top: 0%;
+    right: 2.75rem;
+    bottom: 9.32%;
+    left: 2.75rem;
+    border-radius: 11px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.p {
+    margin: 0;
+}
+
+.div {
+    position: absolute;
+    height: 35.59%;
+    width: 23.19%;
+    top: 35.59%;
+    left: 28.89%;
+    text-align: right;
+    display: inline-block;
+}
+
+.div1 {
+    position: absolute;
+    height: 34.83%;
+    width: 14.86%;
+    top: 36.44%;
+    left: 51.39%;
+    display: inline-block;
+}
+
+.div2 {
+    position: absolute;
+    height: 30.34%;
+    width: 16.74%;
+    top: 36.44%;
+    left: 62.08%;
+    display: inline-block;
+}
+
+.div3 {
+    position: absolute;
+    height: 30.34%;
+    width: 15.14%;
+    top: 36.44%;
+    left: 74.51%;
+    display: inline-block;
+}
+
+.alamat2-2-icon {
+    position: absolute;
+    width: 5.14%;
+    top: 16.95%;
+    right: 5.21%;
+    bottom: 20.17%;
+    left: 89.65%;
+    object-fit: cover;
+}
+
+.div4 {
+    position: absolute;
+    height: 54.49%;
+    width: 80.6%;
+    top: 23.73%;
+    left: 14.08%;
+    display: inline-block;
+}
+
+.wrapper {
+    position: absolute;
+    height: 41.53%;
+    width: 8.13%;
+    top: 25.42%;
+    right: 85.42%;
+    bottom: 33.05%;
+    left: 6.46%;
+    box-shadow: -2px 6px 24px #ffcd62;
+    border-radius: 12px;
+    background-color: #ffcd62;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1.375rem;
+    color: #fff;
+}
+
+.component-10 {
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    height: 5.375rem;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-vazirmatn);
+}
+
+.line-div {
+    width: 100%;
+    position: absolute;
+    border-top: 5px solid #ae1515;
+    box-sizing: border-box;
+    height: 0.25rem;
+    top: 87px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    /* برای موقعیت‌دهی عناصر */
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* موقعیت‌دهی دکمه‌های ناوبری و صفحه‌بندی */
+.custom-controls {
+    position: absolute;
+    top: 356px;
+    /* فاصله از بالا */
+    left: 162px;
+    /* فاصله از چپ */
+    display: flex;
+    align-items: center;
+}
+
+.swiper-button-prev {
+    left: -39px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* پس‌زمینه نیمه شفاف */
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.swiper-button-next {
+    left: 52px;
+    margin-left: 10px;
+    /* فاصله‌ی دکمه next از pagination */
+}
+
+.swiper-pagination {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 26px;
+    position: static !important;
+    /* غیر فعال کردن موقعیت پیش‌فرض pagination */
+}
+
+.component-11 {
+    border-top: #ae1515 solid 5px;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: var(--color-black);
+}
+
+.key-features-description {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features-heading {
+    font-size: 1.563rem;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.features-description {
+    font-size: 1.213rem;
+    font-weight: 375;
+    color: #7c7c7c;
+    text-align: center;
+    padding: 0 10%;
+}
+
+/* استفاده از Flexbox برای نمایش ویژگی‌ها */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+
+    padding: 0 5%;
+    padding-bottom: 40px;
+}
+
+.coments {
+    justify-content: center;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.feature {
+    background-color: var(--color-white);
+    box-shadow: -8px 4px 27px 3px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-mid);
+    width: 14.27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.feature-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.feature-img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--br-11xs);
+    object-fit: cover;
+}
+
+.feature-title {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.feature-description {
+    font-size: var(--font-size-mini);
+    color: #7c7c7c;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 20px;
+    font-family: 'Tahoma', 'Arial', sans-serif;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.view-more {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 1024px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+
+    background-color: #ae1515;
+    background: linear-gradient(black, #ae1515);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover .product-description,
+.product-card:hover .product-name {
+    color: #ffffff;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.btn {
+
+    box-shadow: -2px 2px 24px #ffcd62;
+    background-color: #ffcd62;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #d9d9d9;
+    color: #ae1515;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.footer-map img {
+    width: 300px;
+    height: 200px;
+}
+
+.footer-links,
+.footer-contact {
+    color: #ae1515;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    color: #ae1515;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+.footer-links ul li a {
+    color: #ae1515;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #ae1515;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #ae1515;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.map-frame {
+    width: 400px;
+    /* عرض مورد نظر */
+    height: 300px;
+    /* ارتفاع مورد نظر */
+}
+
+/* استایل برای div اصلی */
+.container {
+    text-align: right;
+    position: relative;
+    padding-left: 1rem;
+    max-width: 41rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 2px solid #d1d5db;
+    /* تغییر به رنگ مناسب */
+    border-radius: 0.5rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    /* تغییر به رنگ مناسب */
+}
+
+/* استایل برای حالت تیره */
+.dark .container {
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* استایل برای div داخلی */
+.content {
+    height: 300px;
+    overflow: hidden;
+}
+
+/* استایل برای عنوان */
+.title {
+    font-size: 1.5rem;
+    /* تغییر به اندازه مناسب */
+    font-weight: bold;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    color: #004d40;
+    /* تغییر به رنگ مناسب */
+}
+
+/* استایل برای متن */
+.text {
+    text-align: center;
+    color: #4b5563;
+    /* تغییر به رنگ مناسب */
+}
+
+/* استایل برای دکمه‌ها */
+.button {
+    color: #666;
+    /* تغییر به رنگ مناسب */
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    /* تغییر به اندازه مناسب */
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db;
+    /* تغییر به رنگ مناسب */
+    border-radius: 0.5rem;
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    transform: translateX(50%);
+    background-color: #ffffff;
+    /* تغییر به رنگ مناسب */
+    margin-top: -1.5rem;
+}
+
+/* استایل برای حالت تیره دکمه */
+.dark .button {
+    background-color: #1f2937;
+    border-color: #3b82f6;
+    color: #ffffff;
+}
+
+/* استایل برای تغییر رنگ دکمه هنگام هاور */
+.button:hover {
+    background-color: #e5e7eb;
+    color: #ffffff;
+}
+
+/* استایل برای پس‌زمینه گرادیانت */
+.gradient-background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 14rem;
+    background: linear-gradient(to top, #1f2937, transparent);
+}
+
+/* استایل برای حالت تیره پس‌زمینه گرادیانت */
+.dark .gradient-background {
+    background: linear-gradient(to top, #1f2937, transparent);
+}
+
+.iconss {
+    display: flex;
+    justify-content: space-between;
+
+}
+
