@@ -19,31 +19,43 @@
 
 <body>
 
-    <header class="component-10" data-aos="fade-up">
-        <nav class="component-10-child">
-            <ul id="menu-list">
-                <li class="div"><a href="#oil-guide" style="
-                    font-size: 16px;
-                ">راهنمای انتخاب روغن</a></li>
-                <li class="div1"><a href="#products" style="
-                    font-size: 16px;
-                ">محصولات ما</a></li>
-                <li class="div2"><a href="#licenses" style="
-                    font-size: 16px;
-                ">تمام مجوز های ما</a></li>
-                <li class="div3"><a href="#home" style="
-                    font-size: 16px;
-                ">صفحه ی اصلی</a></li>
+    <header class="responsive-header"  data-aos="slide-left">
+        <nav class="navbar">
+            <div class="contact-btn">
+                <a href="/contact" class="btn">ارتباط با ما</a>
+            </div>
+            <ul class="menu">
+                <li><a href="#oil-guide">راهنمای انتخاب روغن</a></li>
+                <li><a href="#products">محصولات ما</a></li>
+                <li><a href="#licenses">تمام مجوز های ما</a></li>
+                <li><a href="#home">صفحه ی اصلی</a></li>
             </ul>
-            <img class="alamat2-2-icon" alt="Company Logo" src="alamat2 2.png"> <!-- Kept the original class -->
+            <div class="logo">
+                <img src="alamat2 2.png" alt="Company Logo">
+                <h1 style="
+                font-size: 16px;
+                font-family: vazir;
+            "> شرکت پالایش روغن موتور شتاب</h1>
+            </div>
 
-            <a href="/contact" class="btn" style="left: 6%;top: 23%;position: absolute;">ارتباط با ما</a>
+            <div class="mobile-menu-icon">
+                <input type="checkbox" id="toggle-menu" hidden>
+                <label for="toggle-menu" class="toggle-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+            <ul class="mobile-menu">
+                <li><a href="#oil-guide">راهنمای انتخاب روغن</a></li>
+                <li><a href="#products">محصولات ما</a></li>
+                <li><a href="#licenses">تمام مجوز های ما</a></li>
+                <li><a href="#home">صفحه ی اصلی</a></li>
+            </ul>
         </nav>
-
-
-        <div class="line-div">
-        </div>
     </header>
+    
+    
     <section class="gallery" data-aos="fade-down">
         <!-- Swiper -->
         <div class="swiper-container">
@@ -127,35 +139,35 @@
 
         <!-- ویژگی‌ها -->
         <section class="features">
-            <div class="feature">
+            <div class="feature"  data-aos="fade-down" >
                 <div class="feature-image">
                     <img class="feature-img" alt="ماشین های سواری" src="./support-14-128.png">
                 </div>
                 <h3 class="feature-title">ماشین های سواری</h3>
                 <p class="feature-description">ماشین های سواری ماشبن های سواری ماشبن های سواری ماشبن های سواری</p>
             </div>
-            <div class="feature">
+            <div class="feature" data-aos="fade-up" >
                 <div class="feature-image">
                     <img class="feature-img" alt="ماشین های سواری" src="./pay-per-click-3-128.png">
                 </div>
                 <h3 class="feature-title">ماشین های سواری</h3>
                 <p class="feature-description">ماشین های سواری ماشبن های سواری ماشبن های سواری ماشبن های سواری</p>
             </div>
-            <div class="feature">
+            <div class="feature" data-aos="fade-down">
                 <div class="feature-image">
                     <img class="feature-img" alt="ماشین های سواری" src="./support-13-128.png">
                 </div>
                 <h3 class="feature-title">ماشین های سواری</h3>
                 <p class="feature-description">ماشین های سواری ماشبن های سواری ماشبن های سواری ماشبن های سواری</p>
             </div>
-            <div class="feature">
+            <div class="feature" data-aos="fade-up">
                 <div class="feature-image">
                     <img class="feature-img" alt="ماشین های سواری" src="./support-services-128.png">
                 </div>
                 <h3 class="feature-title">ماشین های سواری</h3>
                 <p class="feature-description">ماشین های سواری ماشبن های سواری ماشبن های سواری ماشبن های سواری</p>
             </div>
-            <div class="feature">
+            <div class="feature" data-aos="fade-down">
                 <div class="feature-image">
                     <img class="feature-img" alt="ماشین های سواری" src="./page-quality-128.png">
                 </div>
@@ -296,11 +308,11 @@
     <div class="footer-bottom">
         <p>
             کپی رایت ©
-
+            
             1403 . تمامی حقوق این سایت متعلق است به شرکت پالایش روغن موتور شتاب. طراحی سایت توسط
-            <a href="https://t.me/alirezan5555" target="_blank">سزارتی</a>
         </p>
-
+        
+        <a href="https://t.me/alirezan5555" target="_blank" style="text-align: left;"> @alireza</a>
     </div>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -317,7 +329,7 @@
                 prevEl: '.swiper-button-prev',
             },
             autoplay: {
-                delay: 1000,
+                delay: 60000,
                 disableOnInteraction: false,
             },
         });
@@ -331,10 +343,10 @@
                 content.style.height = '300px';
                 showMoreButton.textContent = 'ادامه مطلب';
                 gradientBackground.style.display = 'block';
-                svg.style.top = '1528'
+                // svg.style.top = '1528'
 
             } else {
-                svg.style.top = '2511px'
+                // svg.style.top = '2511px'
                 content.style.height = 'auto';
                 showMoreButton.textContent = 'بستن مطلب';
                 gradientBackground.style.display = 'none';
@@ -346,6 +358,18 @@
             once: true,     // انیمیشن فقط یکبار اجرا شود
         });
 
+    document.addEventListener("DOMContentLoaded", function() {
+        const toggleMenu = document.getElementById('toggle-menu');
+        const mobileMenu = document.querySelector('.menu');
+
+        toggleMenu.addEventListener('change', function() {
+            if (toggleMenu.checked) {
+                mobileMenu.style.display = 'flex'; // نمایش منو
+            } else {
+                mobileMenu.style.display = 'none'; // مخفی کردن منو
+            }
+        });
+    });
 
 
     </script>
