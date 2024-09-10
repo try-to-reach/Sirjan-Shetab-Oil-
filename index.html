@@ -133,7 +133,15 @@
         </div>
     </section>
 
-    <div class="component-11" data-aos="slide-left">
+    <div class="component-11 aos-init aos-animate" data-aos="slide-left" style="
+    background: url('./bg.svg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* یا fixed اگر می‌خواهید پس‌زمینه ثابت بماند */
+    width: 100%;
+    padding: 20px; /* اضافه کردن پدینگ برای فاصله درون عنصر */
+    box-sizing: border-box;
+">
+
         <div class="key-features-description">
             <h2 class="features-heading">ویژگی‌های برجسته</h2>
             <p class="features-description">
@@ -143,35 +151,35 @@
         </div>
     
         <section class="features">
-            <div class="feature" data-aos="fade-down">
+            <div class="feature aos-init aos-animate" data-aos="fade-down">
                 <div class="feature-image">
                     <img class="feature-img" alt="ماشین‌های سواری با کیفیت" src="./support-14-128.png">
                 </div>
                 <h3 class="feature-title">ماشین‌های سواری</h3>
                 <p class="feature-description">ماشین‌های سواری با عملکرد بهینه برای تجربه‌ای روان و کم‌هزینه</p>
             </div>
-            <div class="feature" data-aos="fade-up">
+            <div class="feature aos-init aos-animate" data-aos="fade-up">
                 <div class="feature-image">
                     <img class="feature-img" alt="خدمات تخصصی ماشین‌های سواری" src="./pay-per-click-3-128.png">
                 </div>
                 <h3 class="feature-title">خدمات تخصصی</h3>
                 <p class="feature-description">خدمات تخصصی برای خودروهای سواری با بهترین کیفیت</p>
             </div>
-            <div class="feature" data-aos="fade-down">
+            <div class="feature aos-init aos-animate" data-aos="fade-down">
                 <div class="feature-image">
                     <img class="feature-img" alt="قطعات با دوام خودرو" src="./support-13-128.png">
                 </div>
                 <h3 class="feature-title">قطعات با دوام</h3>
                 <p class="feature-description">قطعات با دوام برای افزایش طول عمر خودرو</p>
             </div>
-            <div class="feature" data-aos="fade-up">
+            <div class="feature aos-init aos-animate" data-aos="fade-up">
                 <div class="feature-image">
                     <img class="feature-img" alt="تعمیر و نگهداری خودرو" src="./support-services-128.png">
                 </div>
                 <h3 class="feature-title">تعمیر و نگهداری</h3>
                 <p class="feature-description">راهکارهای مقرون‌به‌صرفه برای تعمیر و نگهداری خودرو</p>
             </div>
-            <div class="feature" data-aos="fade-down">
+            <div class="feature aos-init aos-animate" data-aos="fade-down">
                 <div class="feature-image">
                     <img class="feature-img" alt="کیفیت بالای خودرو" src="./page-quality-128.png">
                 </div>
@@ -180,10 +188,10 @@
             </div>
         </section>
         
-        <img src="./down-arrow-download-svgrepo-com.svg" data-aos="fade-down" width="60px" alt="فلش دانلود">
-        
+        <img src="./down-arrow-download-svgrepo-com.svg" data-aos="fade-down" width="60px" alt="فلش دانلود" class="aos-init aos-animate">
+         
         <div class="container" style="z-index: 100;">
-            <div class="content" data-aos="fade-up">
+            <div class="content aos-init aos-animate" data-aos="fade-up">
                 <div class="mb-10">
                     <div class="iconss">
                         <!-- بهبود alt و استفاده از نام فایل بهینه -->
@@ -250,7 +258,6 @@
         </div>
         
         
-        <img src="./bg.svg" class="bg" alt="پس زمینه" style="width: 100%; position: fixed; top: 29rem;">
     </div>
     <footer>
         <div class="footer-container">
@@ -261,18 +268,20 @@
                     title="نقشه محل شرکت پالایش روغن موتور شتاب"></iframe>
             </div>
     
-            <nav class="footer-links">
-                <h3>دسترسی سریع</h3>
-                <ul>
-                    <li><a href="/" title="صفحه اصلی">صفحه اصلی</a></li>
-                    <li><a href="/lubrication-info" title="دانستنی‌های روغنکاری">دانستنی‌های روغنکاری</a></li>
-                    <li><a href="/agents" title="نمایندگان فروش">نمایندگان فروش</a></li>
-                    <li><a href="/pricing" title="لیست قیمت">لیست قیمت</a></li>
-                    <li><a href="/oil-guide" title="راهنمای روغن">راهنمای روغن</a></li>
-                    <li><a href="/about-us" title="درباره ما">درباره ما</a></li>
-                    <li><a href="/contact-us" title="تماس با ما">تماس با ما</a></li>
-                </ul>
-            </nav>
+            <nav class="footer-links" style="
+            margin: auto 21px;
+        ">
+                        <h3>دسترسی سریع</h3>
+                        <ul>
+                            <li><a href="/" title="صفحه اصلی">صفحه اصلی</a></li>
+                            <li><a href="/lubrication-info" title="دانستنی‌های روغنکاری">دانستنی‌های روغنکاری</a></li>
+                            <li><a href="/agents" title="نمایندگان فروش">نمایندگان فروش</a></li>
+                            <li><a href="/pricing" title="لیست قیمت">لیست قیمت</a></li>
+                            <li><a href="/oil-guide" title="راهنمای روغن">راهنمای روغن</a></li>
+                            <li><a href="/about-us" title="درباره ما">درباره ما</a></li>
+                            <li><a href="/contact-us" title="تماس با ما">تماس با ما</a></li>
+                        </ul>
+                    </nav>
     
             <div class="footer-contact">
                 <h3>تماس با ما</h3>
@@ -310,7 +319,7 @@
                 prevEl: '.swiper-button-prev',
             },
             autoplay: {
-                delay: 5000,
+                delay: 50000,
                 disableOnInteraction: false,
             },
         });
@@ -327,7 +336,7 @@
                 // svg.style.top = '1528'
 
             } else {
-                svg.style.top = '75rem'
+                // svg.style.top = '75rem'
                 content.style.height = 'auto';
                 showMoreButton.textContent = 'بستن مطلب';
                 gradientBackground.style.display = 'none';
